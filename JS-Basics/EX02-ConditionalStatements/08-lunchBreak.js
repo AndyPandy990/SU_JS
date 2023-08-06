@@ -18,8 +18,4 @@ function lunchBreak(input) {
     }
 }
 
-lunchBreak(["Teen Wolf",
-
-"48",
-
-"60"]);
+lunchBreak(["Teen Wolf", "48", "60"]);
