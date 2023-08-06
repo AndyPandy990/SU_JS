@@ -48,8 +48,4 @@ function newHome(input) {
     }
 }
 
-newHome(["Tulips",
-
-"88",
-
-"260"]);
+newHome(["Tulips", "88", "260"]);
