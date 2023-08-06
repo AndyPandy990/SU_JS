@@ -1,4 +1,3 @@
-//from cubic cm to cubic dm (decimeters).
 function fishTank(input){
     let length = Number(input[0]);
     let width = Number(input[1]);
