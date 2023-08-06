@@ -1,7 +1,4 @@
 function depositCalculator(input){
-        // depozirana suma- 100.00 _ 10000.00
-        // v mesec- 1_12
-        // godishen lihven procent- 0.00 _ 100.00
 
         let depositedSum = Number(input[0]);
         let depositPeriod = Number(input[1]);
