@@ -11,10 +11,11 @@ function repainting(input){
 
         let plasticTotal = (plasticNailon + 2) * plastiNailonQM;
         let paintTotal = (paint * 1.1) * paintL;
-let acetonTotal = aceton * acetonL;
+        let acetonTotal = aceton * acetonL;
         let grandTotal = plasticTotal + paintTotal + acetonTotal + baggyesPrice;
         let workersTotal = (grandTotal * 0.3) * baggyes;
         let total = workersTotal + grandTotal;
+        
         console.log(total);
 
 } 
