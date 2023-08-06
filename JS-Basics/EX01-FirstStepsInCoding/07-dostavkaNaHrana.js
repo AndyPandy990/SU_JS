@@ -9,7 +9,6 @@ function foodDeliver(input) {
 
                 let totalMenuPrice = chikenMenuPrice + fishMenuPrice + vegMenuPrice;
                 let dessertPrice = 0.2 * totalMenuPrice;
-                // (20 / 100) moje da se napishe i taka - 0.2 * totalMenuPrice;
 
                 let priceWithDessert = totalMenuPrice + dessertPrice;
                 let priceWithDelivery = priceWithDessert + 2.50;
@@ -18,4 +17,3 @@ function foodDeliver(input) {
 }
 
 foodDeliver(["2", "4", "3"]);
-//116.2 result after 2, 4, 3 input.
